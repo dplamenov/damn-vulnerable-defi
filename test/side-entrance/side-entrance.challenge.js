@@ -24,7 +24,7 @@ describe('[Challenge] Side entrance', function () {
     });
 
     it('Exploit', async function () {
-        /** CODE YOUR EXPLOIT HERE */
+       await this.pool.flashLoan(1000);
     });
 
     after(async function () {
